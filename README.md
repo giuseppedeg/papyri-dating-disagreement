@@ -26,7 +26,7 @@ Eighteen experts dated, from the script alone, 20 Greek documentary papyri whose
 | `expert` | Anonymous expert id (E01–E18) |
 | `expert_periods` | Periods the expert knows best (self-reported) |
 | `date_from`, `date_to` | Earliest and latest plausible year given by the expert |
-| `confidence` | 1 (not confident) to 5 (extremely confident) |
+| `confidence` | Confidence self-estimate given by the expert, 1 (not confident) to 5 (extremely confident) |
 | `requested_info` | Extra information that would help the expert (multiple choice, empty if none) |
 
 `data/vlm_answers.csv`, one row per model, papyrus and sample: `model`, `papyrus`, `sample` (0–29, plus `greedy`), `date_from`, `date_to`, `confidence`. The paper uses the 30 sampled answers.
