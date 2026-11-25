@@ -9,6 +9,7 @@ Eighteen experts dated, from the script alone, 20 Greek documentary papyri whose
 | File | What it is |
 |---|---|
 | `expert_disagreement.ipynb` | All the experiments of the paper, section by section, with tables and figures |
+| `ndfu_polarisation.ipynb` | Polarised datings: nDFU ([Pavlopoulos & Likas, 2024](https://github.com/ipavlopoulos/ndfu)) on the expert answers, with a chance limit and binning checks; writes `figures/fig6_ndfu.pdf` |
 | `data/expert_answers.csv` | The 360 expert answers (20 papyri x 18 experts) |
 | `data/vlm_answers.csv` | The answers of four open vision–language models on the same crops |
 | `figures/` | The figures, as written by the notebook |
